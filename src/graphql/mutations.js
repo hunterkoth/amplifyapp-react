@@ -1,45 +1,48 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createDomainRawTextFile = /* GraphQL */ `
-  mutation CreateDomainRawTextFile(
-    $input: CreateDomainRawTextFileInput!
-    $condition: ModelDomainRawTextFileConditionInput
+export const createNote = /* GraphQL */ `
+  mutation CreateNote(
+    $input: CreateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    createDomainRawTextFile(input: $input, condition: $condition) {
+    createNote(input: $input, condition: $condition) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename
     }
   }
 `;
-export const updateDomainRawTextFile = /* GraphQL */ `
-  mutation UpdateDomainRawTextFile(
-    $input: UpdateDomainRawTextFileInput!
-    $condition: ModelDomainRawTextFileConditionInput
+export const updateNote = /* GraphQL */ `
+  mutation UpdateNote(
+    $input: UpdateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    updateDomainRawTextFile(input: $input, condition: $condition) {
+    updateNote(input: $input, condition: $condition) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename
     }
   }
 `;
-export const deleteDomainRawTextFile = /* GraphQL */ `
-  mutation DeleteDomainRawTextFile(
-    $input: DeleteDomainRawTextFileInput!
-    $condition: ModelDomainRawTextFileConditionInput
+export const deleteNote = /* GraphQL */ `
+  mutation DeleteNote(
+    $input: DeleteNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    deleteDomainRawTextFile(input: $input, condition: $condition) {
+    deleteNote(input: $input, condition: $condition) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename

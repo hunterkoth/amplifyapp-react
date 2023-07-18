@@ -1,42 +1,39 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreateDomainRawTextFile = /* GraphQL */ `
-  subscription OnCreateDomainRawTextFile(
-    $filter: ModelSubscriptionDomainRawTextFileFilterInput
-  ) {
-    onCreateDomainRawTextFile(filter: $filter) {
+export const onCreateNote = /* GraphQL */ `
+  subscription OnCreateNote($filter: ModelSubscriptionNoteFilterInput) {
+    onCreateNote(filter: $filter) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename
     }
   }
 `;
-export const onUpdateDomainRawTextFile = /* GraphQL */ `
-  subscription OnUpdateDomainRawTextFile(
-    $filter: ModelSubscriptionDomainRawTextFileFilterInput
-  ) {
-    onUpdateDomainRawTextFile(filter: $filter) {
+export const onUpdateNote = /* GraphQL */ `
+  subscription OnUpdateNote($filter: ModelSubscriptionNoteFilterInput) {
+    onUpdateNote(filter: $filter) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename
     }
   }
 `;
-export const onDeleteDomainRawTextFile = /* GraphQL */ `
-  subscription OnDeleteDomainRawTextFile(
-    $filter: ModelSubscriptionDomainRawTextFileFilterInput
-  ) {
-    onDeleteDomainRawTextFile(filter: $filter) {
+export const onDeleteNote = /* GraphQL */ `
+  subscription OnDeleteNote($filter: ModelSubscriptionNoteFilterInput) {
+    onDeleteNote(filter: $filter) {
       id
       name
       description
+      file
       createdAt
       updatedAt
       __typename
