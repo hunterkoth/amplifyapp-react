@@ -1,0 +1,14 @@
+{
+  "resourceName": "filestorage",
+  "policyUUID": "c98c8a36",
+  "bucketName": "domainrawfiles",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
