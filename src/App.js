@@ -118,7 +118,7 @@ const App = ({ signOut }) => {
               </a>
             )}
             <Button variation="link" onClick={() => deleteNote(note)}>
-              Delete note
+              Delete File
             </Button>
           </Flex>
         ))}
